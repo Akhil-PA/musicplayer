@@ -1,0 +1,36 @@
+name: melodix
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.3.1
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  image: assets/images/logo.png
+  color: "#000000"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.2
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/
+  #  - images/a_dot_ham.jpeg
+
