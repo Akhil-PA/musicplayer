@@ -24,11 +24,11 @@ class _HomePageState extends State<HomePage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Hello, Pathway",
+                "Hello,",
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text(
-                "India",
+                "Rocky",
                 style: TextStyle(fontSize: 10),
               ),
             ],

@@ -40,10 +40,10 @@ class _MusicPlayerState extends State<MusicPlayer> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Hello, Pathway",
+                    "Hello,",
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
-                  Text("India", style: TextStyle(fontSize: 10))
+                  Text("Rocky", style: TextStyle(fontSize: 10))
                 ],
               ),
               Padding(
