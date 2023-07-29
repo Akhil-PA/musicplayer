@@ -1,40 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:melodix/navigations/tabbar.dart';
+import 'package:mp3player/homePage.dart';
 
 void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Music Player',
       debugShowCheckedModeBanner: false,
-      themeMode: ThemeMode.dark,
-      darkTheme: ThemeData(
-        scaffoldBackgroundColor: Colors.black,
-        brightness: Brightness.dark,
-        bottomNavigationBarTheme: BottomNavigationBarThemeData(
-          backgroundColor: Colors.white10,
-          type: BottomNavigationBarType.fixed,
-          selectedLabelStyle: TextStyle(
-            fontSize: 12,
-          ),
-          unselectedLabelStyle: TextStyle(
-            fontSize: 12,
-          ),
-          selectedItemColor: Colors.white,
-          unselectedItemColor: Colors.white38,
-        ),
-      ),
-      home: Tabbar(),
+      home: HomePage(),
     );
   }
 }

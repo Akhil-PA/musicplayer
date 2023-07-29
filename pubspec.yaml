@@ -1,4 +1,4 @@
-name: melodix
+name: mp3player
 description: A new Flutter project.
 
 version: 1.0.0+1
@@ -12,12 +12,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_native_splash: ^2.3.1
 
-flutter_native_splash:
-  android: true
-  ios: true
-  web: false
-  image: assets/images/logo.png
-  color: "#000000"
+# flutter_native_splash:
+#   android: true
+#   ios: true
+#   web: false
+#   image: assets/images/logo.png
+#   color: "#000000"
 
 dev_dependencies:
   flutter_test:
